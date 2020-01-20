@@ -45,7 +45,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O ChooseBox uma plataforma para você criar seus boxes e guardar tudo que quiser ali, contendo a segurança e escabilidade de um bucket do S3.
+O ChooseBox uma plataforma para você criar seus boxes e guardar tudo que quiser ali, contendo a segurança e escalabilidade de um bucket do S3.
 
 ## 🤔 Diferenças do projeto original
 
