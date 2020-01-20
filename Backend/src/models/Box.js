@@ -3,6 +3,9 @@ import {promisify} from "util";
 import fs from "fs";
 import path from "path";
 import aws from 'aws-sdk';
+import uniqueValidator from 'mongoose-unique-validator';
+
+import File from './File';
 
 const s3 = new aws.S3();
 
@@ -10,13 +13,18 @@ const Box = new mongoose.Schema({
     title: {
         type: String,
         required: true,
+        unique : true
     },
     files: [{ type: mongoose.Schema.Types.ObjectID, ref: 'File' }],
 },{
     timestamps: true,
 });
 
+Box.plugin(uniqueValidator);
+
 Box.pre('remove', async function() {
+    await File.deleteMany({_id:  this.files });
+
     if (process.env.STORAGE_TYPE === 's3') {
         const listParams = {
             Bucket: process.env.AWS_BUCKET,

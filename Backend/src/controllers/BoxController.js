@@ -1,10 +1,22 @@
 import Box from '../models/Box';
 
 class BoxController {
-    async store (req, res) {
-        const box = await Box.create(req.body);
+    async index (req, res) {
+        let boxes = await Box.find();
 
-        return res.json(box);
+        return res.json(boxes);
+    }
+
+    async store (req, res) {
+        await Box.create(req.body, function (err, box) {
+            if(err){
+                return res.json({ error :err });
+            }
+            else {
+                req.io.sockets.emit('box', box);
+                return res.json(box);
+            }
+        });
     }
 
     async show (req, res) {
@@ -24,6 +36,9 @@ class BoxController {
         try {
             await box.remove();
 
+            req.io.sockets.emit('deleteBox', box._id);
+            req.io.sockets.in(box._id).emit('beenDelete', true);
+
             return res.json({ msg: `Box '${box.title}' deletado com sucesso!` })
         }
         catch (e) {
@@ -32,9 +47,9 @@ class BoxController {
     }
 
     async check (req, res) {
-        const check = await Box.findOne({ title: req.body.title });
+        const box = await Box.findOne({ title: req.body.title });
 
-        return res.json(!!check);
+        return res.json({ "exists": !!box, "_id": box ? box.id : box});
     }
 }
 

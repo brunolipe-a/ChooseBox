@@ -22,11 +22,15 @@ class FileController {
 
     async delete (req, res) {
         const file = await File.findById(req.params.id);
+        const box = await Box.findOne({ files: { $in: file._id} }).exec();
 
         try {
             await file.remove();
 
+            req.io.sockets.in(box._id).emit('deleteFile', file._id);
+
             return res.json({ msg: `Arquivo '${file.title}' deletado com sucesso!` })
+
         }
         catch (e) {
             return res.json({ msg: `Houve erro ao deletatr o Arquivo '${file.title}'`, error: e })

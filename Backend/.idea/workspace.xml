@@ -2,12 +2,121 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2d95a52-ed45-497f-8c40-6026ab4f9fae" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../frontend/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/public/android-chrome-192x192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/public/android-chrome-512x512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/public/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/public/browserconfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/public/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/public/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/public/mstile-150x150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/public/safari-pinned-tab.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/public/site.webmanifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/pages/Box/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/pages/Box/styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/pages/Main/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/pages/Main/styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/routes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/services/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/yarn.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/.buckconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/.flowconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/.prettierrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/.watchmanconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/__tests__/App-test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/android/app/BUCK" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/android/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/android/app/build_defs.bzl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/android/app/debug.keystore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/android/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/android/app/src/debug/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/android/app/src/main/java/com/mobile/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/android/app/src/main/java/com/mobile/MainApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/android/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/android/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/android/app/src/main/res/xml/file_viewer_provider_paths.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/android/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/android/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/android/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/android/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/android/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/android/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/ios/Podfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/ios/mobile-tvOS/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/ios/mobile-tvOSTests/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/ios/mobile.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/ios/mobile.xcodeproj/xcshareddata/xcschemes/mobile-tvOS.xcscheme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/ios/mobile.xcodeproj/xcshareddata/xcschemes/mobile.xcscheme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/ios/mobile/AppDelegate.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/ios/mobile/AppDelegate.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/ios/mobile/Base.lproj/LaunchScreen.xib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/ios/mobile/Images.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/ios/mobile/Images.xcassets/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/ios/mobile/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/ios/mobile/main.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/ios/mobileTests/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/ios/mobileTests/mobileTests.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/metro.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/src/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/src/assets/logo@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/src/assets/logo@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/src/pages/Box/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/src/pages/Box/styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/src/pages/Main/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/src/pages/Main/styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/src/routes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/src/services/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mobile/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/BoxController.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/BoxController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/FileController.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/FileController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Box.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Box.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/File.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/File.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="backend" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -17,7 +126,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Vz1DS62GFhhAApVgPs5LU5XbnV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -28,6 +137,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.16.3" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -39,6 +149,23 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="ts.external.directory.path" value="C:\Users\bfaa1\AppData\Local\JetBrains\Toolbox\apps\WebStorm\ch-0\193.5662.54\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -65,13 +192,30 @@
       <workItem from="1578240991939" duration="27000" />
       <workItem from="1578241038663" duration="12037000" />
       <workItem from="1578253333171" duration="2607000" />
+      <workItem from="1578266856449" duration="9480000" />
+      <workItem from="1578520717285" duration="3357000" />
+      <workItem from="1578526770149" duration="6211000" />
+      <workItem from="1578806245492" duration="4025000" />
+      <workItem from="1579057417272" duration="843000" />
+      <workItem from="1579120273557" duration="607000" />
+      <workItem from="1579123753796" duration="21000" />
+      <workItem from="1579124217108" duration="2238000" />
+      <workItem from="1579379372423" duration="1183000" />
+      <workItem from="1579380777479" duration="321000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="697" y="168" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578523598177">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="697" y="168" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1360.728@0.0.1360.728" timestamp="1578523598177" />
     <state x="410" y="112" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1578241809419">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
@@ -80,5 +224,29 @@
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="92" y="92" width="1176" height="544" key="DiffContextDialog/0.0.1360.728@0.0.1360.728" timestamp="1578255071226" />
+    <state x="710" y="110" key="FileChooserDialogImpl" timestamp="1578426696847">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="710" y="110" key="FileChooserDialogImpl/0.0.1360.728@0.0.1360.728" timestamp="1578426696847" />
+    <state width="1339" height="179" key="GridCell.Tab.0.bottom" timestamp="1578426758123">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1339" height="179" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1578426758123" />
+    <state width="1339" height="179" key="GridCell.Tab.0.center" timestamp="1578426758122">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1339" height="179" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1578426758122" />
+    <state width="1339" height="179" key="GridCell.Tab.0.left" timestamp="1578426758122">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1339" height="179" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1578426758122" />
+    <state width="1339" height="179" key="GridCell.Tab.0.right" timestamp="1578426758122">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1339" height="179" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1578426758122" />
+    <state x="431" y="76" key="RollbackChangesDialog" timestamp="1578524365503">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="431" y="76" key="RollbackChangesDialog/0.0.1360.728@0.0.1360.728" timestamp="1578524365503" />
   </component>
 </project>

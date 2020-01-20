@@ -6,8 +6,8 @@ import BoxController from './controllers/BoxController';
 import FileController from "./controllers/FileController";
 
 routes = routes();
-
-routes.get('/', BoxController.check);
+routes.post('/access', BoxController.check);
+routes.get('/boxes', BoxController.index);
 routes.post('/boxes', BoxController.store);
 routes.get('/boxes/:id', BoxController.show);
 routes.delete('/boxes/:id/delete', BoxController.delete);

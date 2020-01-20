@@ -22,6 +22,8 @@ mongoose.connect(
   process.env.MONGO_URL,
   {
     useNewUrlParser: true,
+    useUnifiedTopology: true,
+    useFindAndModify: false
   }
 );
 
@@ -43,4 +45,4 @@ app.use(
 import routes from "./routes";
 app.use(routes);
 
-server.listen(process.env.PORT || 3000);
+server.listen(process.env.PORT || 6666);

@@ -43,6 +43,7 @@ export const Button = styled.button`
     display: flex;
     justify-content: center;
     align-items: center;
+    
     &:hover {
       opacity: 0.8;
       transition: all .2s;
@@ -74,15 +75,6 @@ export const GroupButtons = styled.div`
     flex-wrap: wrap;
     display: flex;
 `;
-
-
-
-
-
-
-
-
-
 
 //# Side #\\\
 
@@ -126,7 +118,7 @@ export const ItemCard = styled.div`
     justify-content: space-between;
     align-items: center;
     margin-bottom: 15px;
-    background: #F3EFF5;
+    background: ${props => props.bg || "#FFF"};
     border-radius: 4px;
     padding: 8px 13px;
     box-shadow: 0 0.46875rem 2.1875rem rgba(8,10,37,.03),
@@ -136,6 +128,7 @@ export const ItemCard = styled.div`
 `;
 
 export const CardInfo = styled.span`
+    margin: ${props => props.margin && props.margin};
     display: flex;
     flex-direction: column;
 `;
